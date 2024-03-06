@@ -1,0 +1,21 @@
+.*
+!.gitignore
+CanBoot
+KlipperScreen
+crowsnest
+klipper
+mainsail
+moonraker-timelapse
+moonraker
+print_area_bed_mesh
+sonar
+printer_data/config/*.png
+printer_data/config/.moonraker.conf.bkp
+# Exclude everything in this directory except for config 
+printer_data/*
+!printer_data/config
+# Note. We ignore all of mainsail-config. That is already a git repo
+# and git doesn't like one repo nested within another
+/mainsail-config
+# Same here
+/Klipper-Adaptive-Meshing-Purging
